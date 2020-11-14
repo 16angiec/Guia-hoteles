@@ -1,0 +1,19 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/16angiec/Guia-hoteles.git"
+  },
+  "author": "Angie Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/16angiec/Guia-hoteles/issues"
+  },
+  "homepage": "https://github.com/16angiec/Guia-hoteles#readme"
+}
