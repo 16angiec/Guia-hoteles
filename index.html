@@ -8,60 +8,127 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 
-  <title>Guía Turistica</title>
+  <title>Hoteles</title>
 </head>
 
 <body>
 
   <div class="jumbotron">
-    <h1>Guía Turistica</h1>
+    <h1>Guía Hoteles</h1>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-sm-4">
         <h1>¿Cómo funciona?</h1>
         <p>Buscá los hoteles de acuerdo a tu preferencía</p>
       </div>
-      <div class="col">
+      <div class="col-sm-4">
         <h1>¿Dónde puedo reservar?</h1>
         <p>Busca la ciudad y el hotel de tu preferencia luego realiza la reserva con tus datos</p>
       </div>
-      <div class="col">
+      <div class="col-sm-4">
         <h1>¿Cómo pago?</h1>
         <p>Puedes realizar tu pago con tu tarjeta debito o credito</p>
       </div>
     </div>
     <hr class="my-4">
-    <div class="row">
-
-      <div class="col">
-        <h1>Hotel villa dura</h1>
-        <p>Hotel uno se encuentra ubicado a 800 metros del centro de la ciudad cuenta con habitaciones de lujo y
-          excelente servicio</p>
-        <button class="btn btn-info">Detalles</button>
+    <div class="d-flex flex-wrap">
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h3>Hotel Bogota</h3>
+          <p>Hotel uno se encuentra ubicado a 800 metros del centro de la ciudad cuenta con habitaciones de lujo y
+            excelente servicio</p>
+        </div>
+        <div>
+          <button class="btn btn-info btn-reserva">Reservar</button>
+        </div>
       </div>
-      <div class="col">
-        <h1>Hotel luz azul</h1>
-        <p>Hotel uno se encuentra ubicado en el centro de la ciudad cuenta con habitaciones de lujo y excelente
-          servicio por parte del personal</p>
-        <button class="btn btn-info">Detalles</button>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h3>Hotel San Andres</h3>
+          <p>Hotel uno se encuentra ubicado en el centro de la ciudad cerca a la playa</p>
+        </div>
+        <div>
+          <button class="btn btn-info btn-reserva">Reservar</button>
+        </div>
       </div>
-      <div class="col">
-        <h1>Hotel playa blanca</h1>
-        <p>Hotel uno se encuentra ubicado en la zona turistica de la ciudad, cuenta con habitaciones de lujo, con
-          excelentes restaurantes y buen servicio por parte del personal</p>
-        <button class="btn btn-info">Detalles</button>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h3>Hotel Cartagena</h3>
+          <p>Hotel uno se encuentra ubicado en la zona turistica de la ciudad, cuenta con habitaciones de lujo y buen
+            servicio</p>
+        </div>
+        <div>
+          <button class="btn btn-info btn-reserva">Reservar</button>
+        </div>
       </div>
-      <div class="col">
-        <h1>Hotel palco 3</h1>
-        <p>Hotel uno se encuentra ubicado a 200 metros del centro de la ciudad cuenta con habitaciones de lujo y
-          excelente servicio</p>
-        <button class="btn btn-info">Detalles</button>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h3>Hotel Madrid</h3>
+          <p>Hotel uno se encuentra ubicado a 200 metros del centro de la ciudad cuenta con habitaciones de lujo y
+            excelente servicio</p>
+        </div>
+        <div>
+          <button class="btn btn-info btn-reserva">Reservar</button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h3>Hotel Perú</h3>
+          <p>Hotel uno se encuentra ubicado a 200 metros del centro de la ciudad cuenta con habitaciones de lujo y
+            excelente servicio</p>
+        </div>
+        <div>
+          <button class="btn btn-info btn-reserva">Reservar</button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h3>Hotel Bosconia</h3>
+          <p>Hotel uno se encuentra ubicado a 200 metros del centro de la ciudad cuenta con habitaciones de lujo y
+            excelente servicio</p>
+        </div>
+        <div>
+          <button class="btn btn-info btn-reserva">Reservar</button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h3>Hotel Lima</h3>
+          <p>Hotel uno se encuentra ubicado a 200 metros del centro de la ciudad cuenta con habitaciones de lujo y
+            excelente atención al usuario</p>
+        </div>
+        <div>
+          <button class="btn btn-info btn-reserva">Reservar</button>
+        </div>
       </div>
     </div>
   </div>
 
+  <footer>
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column">
+        <a href="https://github.com/16angiec">Github</a>
+        <a href="https://github.com/16angiec">Twitter</a>
+      </div>
+      <div class="col-sm-4">
+        <address>
+          <h4>Oficina principal</h4>
+          <p>Bogota - Colombia</p>
+          <p>+57 1 2345678</p>
+          <p>contacto@guiahoteles.com</p>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="https://github.com/16angiec">Nosotros</a>
+        <a href="https://github.com/16angiec">Precios</a>
+        <a href="https://github.com/16angiec">Terminos y condiciones</a>
+        <a href="https://github.com/16angiec">Contacto</a>
+      </div>
+    </div>
+  </footer>
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
