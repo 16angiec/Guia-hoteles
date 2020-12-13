@@ -26,9 +26,9 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
         <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
-        <li class="nav-item"><a class="nav-link" href="./prices.html">Precios</a></li>
+        <li class="nav-item active"><a class="nav-link" href="#">Precios</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
-        <li class="nav-item active"><a class="nav-link" href="#">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html">Contacto</a></li>
       </ul>
     </div>
   </nav>
@@ -40,55 +40,78 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
-        <li class="breadcrumb-item active" arial-current="page">Contacto</li>
+        <li class="breadcrumb-item active" arial-current="page">Precios</li>
       </ol>
     </nav>
 
-    <h1>Deja tu comentario</h1>
-
-    <form>
-      <div class="form-row">
-        <div class="form-group col-sm-6">
-          <label for="nombre">Nombre</label>
-          <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
-        </div>
-        <div class="form-group col-sm-6">
-          <label for="apellido">Apellido</label>
-          <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
-      </div>
-      <div class="form-row">
-        <div class="form-group col-sm-9">
-          <label for="direccion">Dirección</label>
-          <input type="text" class="form-control" id="direccion" placeholder="Ingrese su direccion">
-        </div>
-        <div class="form-group col-sm-3">
-          <label for="ciudad">Ciudad</label>
-          <select id="ciudad" class="form-control">
-            <option selected>Elija una ciudad</option>
-            <option>Cartagena</option>
-            <option>Medellin</option>
-            <option>Bucaramanga</option>
-            <option>Bogotá</option>
-          </select>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="comentario">Comentario</label>
-        <textarea id="comentario" cols="30" rows="10" class="form-control"></textarea>
-      </div>
-      <div class="form-group">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck">Quiero que me contacten</label>
-        </div>
-      </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <th>Calidad</th>
+          <th>Bogotá</th>
+          <th>Bucaramanga</th>
+          <th>Cartagena</th>
+          <th>Medellín</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <span class="oi oi-star"></span>
+            </td>
+            <td>$100</td>
+            <td>$110</td>
+            <td>$120</td>
+            <td>$130</td>
+          </tr>
+          <tr>
+            <td>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+            </td>
+            <td>$200</td>
+            <td>$210</td>
+            <td>$220</td>
+            <td>$230</td>
+          </tr>
+          <tr>
+            <td>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+            </td>
+            <td>$300</td>
+            <td>$310</td>
+            <td>$320</td>
+            <td>$330</td>
+          </tr>
+          <tr>
+            <td>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+            </td>
+            <td>$400</td>
+            <td>$410</td>
+            <td>$420</td>
+            <td>$430</td>
+          </tr>
+          <tr>
+            <td>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+              <span class="oi oi-star"></span>
+            </td>
+            <td>$500</td>
+            <td>$510</td>
+            <td>$520</td>
+            <td>$530</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
   </div>
 
