@@ -46,14 +46,34 @@
     </nav>
     <div class="row">
       <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona"
+          aria-expanded="false" aria-controls="multiCollapse1">
+          ¿Cómo funciona?
+        </button>
+      </div>
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva"
+          aria-expanded="false" aria-controls="multiCollapse2">
+          ¿Dónde puedo reservar?
+        </button>
+      </div>
+      <div class="col-sm-4">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago" aria-expanded="false"
+          aria-controls="multiCollapse3">
+          ¿Cómo pago?
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 collapse multi-collapse" id="funciona">
         <h1>¿Cómo funciona?</h1>
         <p>Buscá los hoteles de acuerdo a tu preferencía</p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 collapse multi-collapse" id="reserva">
         <h1>¿Dónde puedo reservar?</h1>
         <p>Busca la ciudad y el hotel de tu preferencia luego realiza la reserva con tus datos</p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 collapse multi-collapse" id="pago">
         <h1>¿Cómo pago?</h1>
         <p>Puedes realizar tu pago con tu tarjeta debito o credito</p>
       </div>
