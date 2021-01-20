@@ -162,7 +162,8 @@
             excelente servicio</p>
         </div>
         <div>
-          <button class="btn btn-info btn-reserva" data-toggle="modal" data-target="#contacto">Reservar</button>
+          <button class="btn btn-info btn-reserva" data-toggle="modal" data-target="#contacto"
+            id="contactoBtn">Reservar</button>
         </div>
       </div>
       <div class="card card-hotel d-flex flex-column justify-content-between">
@@ -188,7 +189,8 @@
             excelente atención al usuario</p>
         </div>
         <div>
-          <button class="btn btn-info btn-reserva" data-toggle="modal" data-target="#contacto">Reservar</button>
+          <button class="btn btn-info btn-reserva" data-toggle="modal" data-target="#contacto"
+            id="contactoBtn">Reservar</button>
         </div>
       </div>
     </div>
@@ -253,6 +255,33 @@
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/dist/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script>
+    $(function () {
+      $('.carousel').carousel({
+        interval: 2000
+      });
+
+      $('#contacto').on('show.bs.modal', function (e) {
+        console.log('El modal se esta mostrando');
+
+        $('#contactoBtn').removeClass('btn-info');
+        $('#contactoBtn').addClass('btn-default');
+        $('#contactoBtn').prop('disabled', true)
+      });
+      $('#contacto').on('shown.bs.modal', function (e) {
+        console.log('El modal se mostro');
+      });
+      $('#contacto').on('hide.bs.modal', function (e) {
+        console.log('El modal se esta ocultando');
+      });
+      $('#contacto').on('hidden.bs.modal', function (e) {
+        console.log('El modal se oculto');
+
+        $('#contactoBtn').prop('disabled', false)
+      });
+    });
+  </script>
 
 </body>
 
